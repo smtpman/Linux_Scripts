@@ -1,3 +1,4 @@
 # scripts
-chmod +x newinstall.sh
-./newinstall.sh
+chmod +x newsetup.sh
+
+./newsetup.sh
