@@ -14,7 +14,7 @@ echo "Installing Discord"
 sudo snap install discord
 echo "done"
 echo "Installing Mumble"
-sudo snap install mumble
+sudo apt install -y mumble
 echo "done"
 echo "Installing Spotify"
 sudo snap install spotify
@@ -40,6 +40,9 @@ sudo apt install -y quickgui
 echo "done"
 echo "installing nmap"
 sudo apt-get install -y nmap
+echo "done"
+echo "installing Docker"
+sudo apt install -y docker.io
 echo "done"
 
 
