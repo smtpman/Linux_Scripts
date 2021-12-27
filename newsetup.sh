@@ -44,7 +44,23 @@ echo "done"
 echo "installing Docker"
 sudo apt install -y docker.io
 echo "done"
+echo "installing Ansible"
+sudo apt install -y ansible
+echo "done"
+echo "installing KVM and Virt-Manager"
+sudo apt install -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virtinst virt-manager
+echo "done"
+sudo systemctl is-active libvirtd
+read -t 15
+echo "Give loggged on user Virtual Create Permissions"
+sudo usermod -aG libvirt $USER
+sudo usermod -aG kvm $USER
+echo "done"
+echo "Virtual Networks"
+brctl show
+read -t 15
 
-
+echo "https://linuxize.com/post/how-to-install-kvm-on-ubuntu-20-04/"
+echo "https://help.ubuntu.com/community/KVM/Networking#Bridged_Networking"
 echo "Install apt install lm-sensors https://help.ubuntu.com/community/SensorInstallHowto"
 echo "Mumble Setup Guide https://mumble.jupiterbroadcasting.org/setup.html#addjb"
