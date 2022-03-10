@@ -44,6 +44,21 @@ echo "done"
 echo "installing kdenlive"
 flatpak install flathub org.kde.kdenlive
 echo "done"
+echo "installing VLC"
+flatpak install flathub org.videolan.VLC
+echo "done"
+echo "installing Gnome-Tweaks"
+sudo apt install gnome-tweaks
+echo "done"
+echo "installing NeoFetch"
+sudo apt-get install neofetch
+echo "done"
+echo "installing Flameshot"
+flatpak install flathub org.flameshot.Flameshot
+echo "done"
+echo "installing Element"
+flatpak install flathub im.riot.Riot
+echo "done"
 echo "installing Docker"
 sudo apt install -y docker.io
 echo "done"
