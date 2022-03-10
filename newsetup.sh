@@ -8,16 +8,16 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo "done"
 rm google-chrome-stable_current_amd64.deb
 echo "Installing Telegram"
-flatpak install flathub org.telegram.desktop
+flatpak install -y flathub org.telegram.desktop
 echo "done"
 echo "Installing Discord"
-flatpak install flathub com.discordapp.Discord
+flatpak install -y flathub com.discordapp.Discord
 echo "done"
 echo "Installing Mumble"
 sudo apt install -y mumble
 echo "done"
 echo "Installing Spotify"
-flatpak install flathub com.spotify.Client
+flatpak install -y flathub com.spotify.Client
 echo "done"
 echo "Installing SSH"
 sudo apt install -y openssh-server
@@ -26,7 +26,7 @@ echo "Installing Git"
 sudo apt install -y git
 echo "done"
 echo "Install Visual Studio Code"
-flatpak install flathub com.visualstudio.code
+flatpak install -y flathub com.visualstudio.code
 echo "done"
 sudo apt-add-repository -y ppa:flexiondotorg/quickemu
 sudo apt -y update
@@ -42,22 +42,22 @@ echo "installing nmap"
 sudo apt-get install -y nmap
 echo "done"
 echo "installing kdenlive"
-flatpak install flathub org.kde.kdenlive
+flatpak install -y flathub org.kde.kdenlive
 echo "done"
 echo "installing VLC"
-flatpak install flathub org.videolan.VLC
+flatpak install -y flathub org.videolan.VLC
 echo "done"
 echo "installing Gnome-Tweaks"
-sudo apt install gnome-tweaks
+sudo apt install -y gnome-tweaks
 echo "done"
 echo "installing NeoFetch"
-sudo apt-get install neofetch
+sudo apt-get install -y neofetch
 echo "done"
 echo "installing Flameshot"
-flatpak install flathub org.flameshot.Flameshot
+flatpak install -y flathub org.flameshot.Flameshot
 echo "done"
 echo "installing Element"
-flatpak install flathub im.riot.Riot
+flatpak install -y flathub im.riot.Riot
 echo "done"
 echo "installing Docker"
 sudo apt install -y docker.io
