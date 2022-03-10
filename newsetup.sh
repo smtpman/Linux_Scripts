@@ -41,6 +41,9 @@ echo "done"
 echo "installing nmap"
 sudo apt-get install -y nmap
 echo "done"
+echo "installing kdenlive"
+flatpak install flathub org.kde.kdenlive
+echo "done"
 echo "installing Docker"
 sudo apt install -y docker.io
 echo "done"
