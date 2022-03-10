@@ -8,16 +8,16 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 echo "done"
 rm google-chrome-stable_current_amd64.deb
 echo "Installing Telegram"
-sudo snap install telegram-desktop
+flatpak install flathub org.telegram.desktop
 echo "done"
 echo "Installing Discord"
-sudo snap install discord
+flatpak install flathub com.discordapp.Discord
 echo "done"
 echo "Installing Mumble"
 sudo apt install -y mumble
 echo "done"
 echo "Installing Spotify"
-sudo snap install spotify
+flatpak install flathub com.spotify.Client
 echo "done"
 echo "Installing SSH"
 sudo apt install -y openssh-server
@@ -26,7 +26,7 @@ echo "Installing Git"
 sudo apt install -y git
 echo "done"
 echo "Install Visual Studio Code"
-sudo snap install --classic code
+flatpak install flathub com.visualstudio.code
 echo "done"
 sudo apt-add-repository -y ppa:flexiondotorg/quickemu
 sudo apt -y update
