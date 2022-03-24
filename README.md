@@ -1,6 +1,8 @@
 # scripts
-chmod +x newsetup.sh
+chmod +x newdesktopsetup.sh
+chmod +x newlabtopsetup.sh
 chmod +x flatpak.sh
 
 ./flatpak.sh
-./newsetup.sh
+./newdesktopsetup.sh
+./newlabtopsetup.sh
