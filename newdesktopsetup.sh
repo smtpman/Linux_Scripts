@@ -13,8 +13,17 @@ echo "done"
 echo "Installing Discord"
 flatpak install -y flathub com.discordapp.Discord
 echo "done"
-echo "Installing Mumble"
-sudo apt install -y mumble
+#echo "Installing Mumble"
+#sudo apt install -y mumble
+#echo "done"
+echo "Disabling Ubuntu Dock"
+gnome-extensions disable ubuntu-dock@ubuntu.com
+echo "done"
+echo "Installing Wireshark"
+flatpak install -y flathub org.wireshark.Wireshark
+echo "done"
+echo "Installing Slack"
+flatpak install -y flathub com.slack.Slack
 echo "done"
 echo "Installing Spotify"
 flatpak install -y flathub com.spotify.Client
