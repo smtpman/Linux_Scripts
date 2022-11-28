@@ -1,4 +1,4 @@
-# scripts
+# Linux scripts
 chmod +x newdesktopsetup.sh
 
 chmod +x newlabtopsetup.sh
